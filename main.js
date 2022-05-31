@@ -1,29 +1,3 @@
-//console.log('Knock Knock...');
-//let ans = prompt('Knock Knock...');
-/*
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
-const recursiveReadline = func => {
-    readline.question("", func(answer) {
-        
-    })
-}
-
-
-let answer;
-
-readline.question('Knock Knock... ', (ans) => {
-    //console.log(`${ans}!`);
-    if (ans == "Who's there?"){
-        answer = "A little old lady. ";
-        readline.close();
-    }
-    console.log(answer)
-});
-*/
 
 var readline = require('readline');
 var log = console.log;
